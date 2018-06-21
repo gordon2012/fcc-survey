@@ -5,13 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Survey Form | freeCodeCamp</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 
 <body>
+  <h1 id="title">Survey Form</h1>
 
+  <p id="description">Please fill out this survey form.</p>
+
+  <form action="" id="survey-form">
+    <div class="form-group">
+      <div class="form-left">
+        <label for="name" id="name-label">Name</label>
+      </div>
+      <div class="form-right">
+        <input type="text" id="name" required placeholder="What is your name?">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label for="email" id="email-label">Email</label>
+      </div>
+      <div class="form-right">
+        <input type="email" id="email" required placeholder="What is your email address?">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label for="number" id="number-label">Age</label>
+      </div>
+      <div class="form-right">
+        <input type="number" id="number" min="0" max="130" placeholder="How old are you?">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label for="dropdown">Favorite Food</label>
+      </div>
+      <div class="form-right">
+        <select type="select" id="dropdown">
+          <option value="Tacos">Tacos</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Fried Chicken">Fried Chicken</option>
+          <option value="Steak">Steak</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label>Do you like Ice Cream?</label>
+      </div>
+      <div class="form-right">
+        <input type="radio" id="yes" value="yes" name="icecream">
+        <label for="yes">Yes</label>
+        <br>
+        <input type="radio" id="no" value="no" name="icecream">
+        <label for="no">No</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label>What kinds of toppings do you like?</label>
+      </div>
+      <div class="form-right">
+        <input type="checkbox" value="sprinkles">
+        <label>Sprinkles</label>
+        <br>
+        <input type="checkbox" value="chocolate chips">
+        <label>Chocolate Chips</label>
+        <br>
+        <input type="checkbox" value="hot fudge">
+        <label>Hot Fudge</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-left">
+        <label>Additional Comments</label>
+      </div>
+      <div class="form-right">
+        <textarea></textarea>
+      </div>
+    </div>
+
+    <input type="submit" id="submit">
+  </form>
 </body>
 
 </html>
