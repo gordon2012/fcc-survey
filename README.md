@@ -2,6 +2,8 @@
 
 ### A freeCodeCamp Responsive Web Design Project
 
-<https://survey.gordonscampinggear.com>
+<https://survey.gordondoskas.com>
 
-![Survey Form](https://gordonscampinggear.com/img/survey.png)
+A freeCodeCamp Responsive Web Design project, this simple website is a survey form that asks the user a series of questions.
+
+![Survey Form](https://portfolio.gordondoskas.com/img/survey.png 'Survey Form')
